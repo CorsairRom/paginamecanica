@@ -1,0 +1,83 @@
+
+:root {
+    --color-blue-medium: #8fe2e4;
+    --color-purple: #632ce7;
+    --color-gray: #ccc;
+    --color-gray-medium: #f8f9fa;
+    --color-yellow: #fac32c;
+  }
+  /* general style */
+  a {
+    color: inherit !important;
+  }
+  /* section */
+  
+  /* nav */
+  /* .navbar-brand > img{
+    width: 550px;
+    height: 60px;
+    margin: -12px;
+    
+    border-radius: 110px;
+    
+  } */
+  .navbar-main .active{
+    text-decoration: underline double black;
+    text-underline-offset: 9px; 
+  }
+
+.divsep{
+    height: 100vh;
+}
+.container-fluid > a > img{
+    filter: opacity(0.2);
+}
+.carousel-inner img{
+    height: auto;
+    border-radius: 10px;
+    /* filter: opacity(0.5); */
+    
+}
+.containerbody{
+    position: relative;
+    overflow: scroll;
+}
+h4{
+    padding-top: 80px;
+}
+.carousel-inner{
+    padding-top: 100px;
+}
+
+#navbartop{
+    margin-top: 50px;
+    
+}
+.nav-link:hover{
+    background-color: orange;
+}
+
+
+#logo-contacto{
+    border: 1px solid blue;
+    width: 100%;
+    height: 70px;
+    padding: 4px;
+    display: inline-flex;
+    position: fixed;
+    align-items: center;  
+    
+}
+
+.logo{
+    width: 60%;
+    display: flex;
+    border: 1px solid green;
+}
+.contacto{
+    width: 38%;
+    display: flex;
+    border: 1px solid orange;
+}
+
+
